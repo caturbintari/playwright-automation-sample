@@ -1,16 +1,22 @@
-# QA Technical Test - Automation Framework
+# Playwright Automation Testing Sample Project
 
-This project shows the solution to the Quality Assurance technical test by Caturiani Pratidina Bintari using Python Playwright.
+This repository contains a sample automation testing framework built using Python and Playwright, demonstrating how to automate API testing, web UI testing, and data generation scripting.
+
 
 ## Project Overview
 
-The framework covers three key requirements:
+The framework showcases automation testing implementation using Playwright with Python, covering the following areas:
 
-1.  **API Automation**: API automation testing with 5 scenarios
-2.  **Website test Automation**: Website functionality automation testing (5 positive and 5 negative scenarios)
-3.  **Data generation script**: Fetches user data from `reqres.in` and exports it to a CSV file using a specific manual formatting logic
+1. **API Automation**: Automated API test scenarios using a public demo REST API  
+   ([Reqres](https://reqres.in/))
+
+2. **Website Test Automation**: UI automation tests covering both positive and negative scenarios on a demo web application  
+   ([Sauce Demo](https://www.saucedemo.com/))
+
+3. **Data Generation Script**: A script that fetches user data from an API and exports it into a CSV file using custom formatting logic.
 
 ---
+
 
 ## Tech Stack & Prerequisites
 
@@ -34,7 +40,7 @@ The framework covers three key requirements:
 
 Follow these steps to set up the environment:
 
-### 1. Clone or Download Project
+### 1. Clone the repository
 
 Open your terminal in the project directory
 
@@ -106,7 +112,7 @@ python additional.py
 
 - **Output:** A file named `response.csv` will be created in the root folder.
 
-- **Note:** This script uses a custom manual string builder for CSV generation as per the technical test reference.
+- **Note:** The CSV file is created using a custom manual string-based formatting approach for demonstration purposes.
 
 ---
 
@@ -139,4 +145,3 @@ python additional.py
 
 ---
 
-_Submitted for Technical Test. By, Caturiani Pratidina Bintari_
